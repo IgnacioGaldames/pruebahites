@@ -1,0 +1,7 @@
+@for $i from 1 through 10
+  .order-#{$i}
+    order: #{$i} 
+@media (min-width: 768px)
+  @for $i from 1 through 10
+    .order-md-#{$i}
+      order: #{$i} !important
