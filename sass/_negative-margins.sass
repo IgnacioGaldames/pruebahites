@@ -1,3 +1,7 @@
-@for $negativeMargin from 1 through 5
+@for $negativeMargin from 1 through 15
    .mt-n#{$negativeMargin}
+     margin-top: -(0.25*$negativeMargin)+rem !important
+@media (min-width: 768px)
+  @for $negativeMargin from 1 through 15
+   .mt-md-n#{$negativeMargin}
      margin-top: -(0.25*$negativeMargin)+rem !important
