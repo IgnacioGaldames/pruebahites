@@ -1,88 +1,87 @@
-#gnc .gldm body {
+#gnc .gldms body {
   font-family: "Geologica", sans-serif;
 }
-#gnc .glds div[class^=col-] + div[class^=col-] {
+#gnc .gldm div[class^=col-] + div[class^=col-] {
   padding-right: calc(var(--bs-gutter-x) * 0.25) !important;
   padding-left: calc(var(--bs-gutter-x) * 0.25) !important;
 }
-#gnc .glms .order-1 {
-  order: 1;
-}
-#gnc .glms .order-2 {
-  order: 2;
-}
-#gnc .glms .order-3 {
-  order: 3;
-}
-#gnc .glms .order-4 {
-  order: 4;
-}
-#gnc .glms .order-5 {
-  order: 5;
-}
-#gnc .glms .order-6 {
+#gnc .glds .order-6 {
   order: 6;
 }
-#gnc .glms .order-7 {
+#gnc .glds .order-7 {
   order: 7;
 }
-#gnc .glms .order-8 {
+#gnc .glds .order-8 {
   order: 8;
 }
-#gnc .glms .order-9 {
+#gnc .glds .order-9 {
   order: 9;
 }
-#gnc .glms .order-10 {
+#gnc .glds .order-10 {
   order: 10;
 }
 @media (min-width: 768px) {
-  #gnc .glms .order-md-1 {
-    order: 1 !important;
-  }
-  #gnc .glms .order-md-2 {
-    order: 2 !important;
-  }
-  #gnc .glms .order-md-3 {
-    order: 3 !important;
-  }
-  #gnc .glms .order-md-4 {
-    order: 4 !important;
-  }
-  #gnc .glms .order-md-5 {
-    order: 5 !important;
-  }
-  #gnc .glms .order-md-6 {
+  #gnc .glds .order-md-6 {
     order: 6 !important;
   }
-  #gnc .glms .order-md-7 {
+  #gnc .glds .order-md-7 {
     order: 7 !important;
   }
-  #gnc .glms .order-md-8 {
+  #gnc .glds .order-md-8 {
     order: 8 !important;
   }
-  #gnc .glms .order-md-9 {
+  #gnc .glds .order-md-9 {
     order: 9 !important;
   }
-  #gnc .glms .order-md-10 {
+  #gnc .glds .order-md-10 {
     order: 10 !important;
   }
 }
-#gnc .ldms .bg-image {
+#gnc .glms .bg-image {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-#gnc .gldms .ar-a {
+#gnc .gdms .ar-a {
   aspect-ratio: 650/846;
 }
-#gnc .gldms .ar-b {
+#gnc .gdms .ar-b {
   aspect-ratio: 132/95;
 }
-#gnc .gldms .ar-c {
+#gnc .gdms .ar-c {
   aspect-ratio: 65/95;
 }
-#gnc .gldms .ar-d {
+#gnc .gdms .ar-d {
   aspect-ratio: 1320/846;
+}
+#gnc .ldms .grad-red {
+  background: #ff3000;
+  background: linear-gradient(90deg, rgb(255, 48, 0) 0%, rgb(255, 0, 145) 100%);
+}
+#gnc .ldms .grad-white {
+  background: #fff;
+  background: linear-gradient(0deg, #ffffff 0%, #cccccc 100%);
+}
+#gnc .gld .mt-n1 {
+  margin-top: -0.25rem !important;
+}
+#gnc .gld .mt-n2 {
+  margin-top: -0.5rem !important;
+}
+#gnc .gld .mt-n3 {
+  margin-top: -0.75rem !important;
+}
+#gnc .gld .mt-n4 {
+  margin-top: -1rem !important;
+}
+#gnc .gld .mt-n5 {
+  margin-top: -1.25rem !important;
+}
+#gnc .gldms .border-bottom-left {
+  border-bottom-left-radius: var(--bs-border-radius) !important;
+}
+#gnc .gldms .border-bottom-right {
+  border-bottom-right-radius: var(--bs-border-radius) !important;
 }
 
 /*# sourceMappingURL=main.css.map */

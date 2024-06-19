@@ -1,0 +1,4 @@
+$borders: 'bottom-left', 'bottom-right'
+@each $border in $borders
+  .border-#{$border}
+    border-#{$border}-radius: var(--bs-border-radius) !important

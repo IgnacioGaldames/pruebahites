@@ -10,14 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
   <title>Prueba Hites Ignacio Galdames</title>
-  <!-- link rel="stylesheet" href="css/main.css" -->
-  <style>
-    #gnc .gldm body{font-family:"Geologica",sans-serif}#gnc .glds div[class^=col-]+div[class^=col-]{padding-right:calc(var(--bs-gutter-x)*.25) !important;padding-left:calc(var(--bs-gutter-x)*.25) !important}#gnc .glms .order-1{order:1}#gnc .glms .order-2{order:2}#gnc .glms .order-3{order:3}#gnc .glms .order-4{order:4}#gnc .glms .order-5{order:5}#gnc .glms .order-6{order:6}#gnc .glms .order-7{order:7}#gnc .glms .order-8{order:8}#gnc .glms .order-9{order:9}#gnc .glms .order-10{order:10}@media(min-width: 768px){#gnc .glms .order-md-1{order:1 !important}#gnc .glms .order-md-2{order:2 !important}#gnc .glms .order-md-3{order:3 !important}#gnc .glms .order-md-4{order:4 !important}#gnc .glms .order-md-5{order:5 !important}#gnc .glms .order-md-6{order:6 !important}#gnc .glms .order-md-7{order:7 !important}#gnc .glms .order-md-8{order:8 !important}#gnc .glms .order-md-9{order:9 !important}#gnc .glms .order-md-10{order:10 !important}}#gnc .ldms .bg-image{background-repeat:no-repeat;background-position:center center;background-size:cover}#gnc .gldms .ar-a{aspect-ratio:650/846}#gnc .gldms .ar-b{aspect-ratio:132/95}#gnc .gldms .ar-c{aspect-ratio:65/95}#gnc .gldms .ar-d{aspect-ratio:1320/846}
+  <link rel="stylesheet" href="css/main.css">
 
-  </style>
 </head>
 
-<body class="bg-dark gldm glds glms ldms gldms">
+<body class="bg-dark gldms gldm glds glms gdms ldms gld">
   <main class="container text-white my-5">
     <div class="row d-flex">
       <div id="smartphones" class="col-12 col-md-6 order-1 order-md-2 mb-2">
@@ -41,7 +38,6 @@
         <div class="p-2 rounded bg-image ar-d" style="background-image: url(https://dummyimage.com/1320x846/004/fff);">
           <p><b>Smart TV</b></p>
         </div>
-
       </div>
       <div id="refrigeracion" class="col-6 col-md-3 order-5 order-md-5 mb-2">
         <div class="p-2 rounded bg-image ar-c" style="background-image: url(https://dummyimage.com/650x950/005/fff);">
@@ -54,9 +50,30 @@
         </div>
       </div>
       <div id="smart-soundbar" class="col-6 col-md-3 order-7 order-md-1 mb-2">
-        <div class="p-2 rounded bg-image ar-a" style="background-image: url(https://dummyimage.com/650x846/007/fff);">
-          <p><b>Smart TV y Soundbar</b></p>
-     </div>
+        <div class="p-2 rounded bg-image ar-a d-flex align-content-between flex-wrap"
+          style="background-image: url(https://dummyimage.com/650x846/007/fff);">
+          <div class="">
+            <p><b>Smart TV y Soundbar</b></p>
+          </div>
+          <div class="precios gr-r">
+            <div class="rounded-top grad-red d-inline-block px-3 pb-2 z-0 position-relative">
+              <small>50%</small>
+            </div>
+            <div class="bg-white text-dark rounded-top mt-n1 px-3 pt-1 z-1 position-relative shadow">
+              <p class="pb-1"<b>lorem</b>ipsum dolor sit amet</p>
+            </div>
+            <div class="mt-n4 position-relative d-flex z-0">
+              <div class="col grad-red  w-50 float-left p-1 border-bottom-left">
+                <small>Precio Oferta</small>
+                <h5>$1.590.990</h3>
+              </div>
+              <div class="col grad-white w-50 float-left p-1 text-dark border-bottom-right">
+                <small>Precio Oferta</small>
+                <h5>$1.590.990</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="zapatillas" class="col-6 col-md-3 order-8 order-md-3 mb-2">
         <div class="p-2 rounded bg-image ar-a" style="background-image: url(https://dummyimage.com/650x846/008/fff);">
@@ -64,17 +81,15 @@
           <p>Mejores marcas</p>
         </div>
       </div>
-      <div id="vestuario" class="col-6 col-md-3 order-9 order-md-8 mb-2"
-        >
+      <div id="vestuario" class="col-6 col-md-3 order-9 order-md-8 mb-2">
         <div class="p-2 rounded bg-image ar-a" style="background-image: url(https://dummyimage.com/650x846/009/fff);">
-        <p><b>Vestuario</b></p>          
+          <p><b>Vestuario</b></p>
         </div>
       </div>
-      <div id="linea-blanca" class="col-6 col-md-3 order-10 order-md-10 mb-2"
-        >
+      <div id="linea-blanca" class="col-6 col-md-3 order-10 order-md-10 mb-2">
         <div class="p-2 rounded bg-image ar-a" style="background-image: url(https://dummyimage.com/650x846/0010/fff);">
           <p><b>Línea Blanca</b></p>
-        </div>  
+        </div>
       </div>
     </div>
   </main>
