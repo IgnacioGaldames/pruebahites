@@ -1,4 +1,4 @@
-#gnc .gldms body {
+#gnc .gldms body, #gnc .gldms * {
   font-family: "Geologica", sans-serif;
 }
 #gnc .gldm div[class^=col-] + div[class^=col-] {
@@ -104,6 +104,9 @@
 #gnc .gms .fs-7 {
   font-size: 0.75rem !important;
 }
+#gnc .gms .fs-8 {
+  font-size: 0.5rem !important;
+}
 @media (min-width: 768px) {
   #gnc .gms .fs-md-1 {
     font-size: 2.5rem !important;
@@ -126,6 +129,18 @@
   #gnc .gms .fs-md-7 {
     font-size: 0.75rem !important;
   }
+  #gnc .gms .fs-md-8 {
+    font-size: 0.5rem !important;
+  }
+}
+#gnc .gls body, #gnc .gls * {
+  font-family: "Geologica", sans-serif;
+}
+#gnc .gldms .bg-pink {
+  background-color: rgb(255, 0, 145);
+}
+#gnc .gldms .bg-blue {
+  background-color: #200089;
 }
 
 /*# sourceMappingURL=main.css.map */
